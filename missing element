@@ -1,0 +1,7 @@
+arr = [1,2,3,5,6,7,9,10]
+missing_elements=[]
+for i in range(arr[0], arr[-1]+1):
+    if i not in arr:
+        
+      print("missing_elements",[i])
+          
